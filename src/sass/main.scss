@@ -1,0 +1,35 @@
+@import "other";
+
+.panel {
+  &__body {
+    width: 100%;
+    margin: 25vh auto 0;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    &-grey {
+      background: #cc0256;
+    }
+  }
+
+  &__square {
+    width: 200px;
+
+    &-red {
+      background-color: red;
+      align-self: stretch;
+    }
+
+    &-green {
+      background-color: green;
+      align-self: stretch;
+    }
+
+    &-blue {
+      background-color: #bac;
+    }
+  }
+}
